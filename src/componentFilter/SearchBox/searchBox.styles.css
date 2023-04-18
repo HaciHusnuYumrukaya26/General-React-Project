@@ -1,0 +1,9 @@
+.searchBox{
+ border: none;
+ height: 50px;
+ margin-bottom: 20px;
+ text-align: center;
+}
+.searchBox:focus{
+    outline: none;
+}

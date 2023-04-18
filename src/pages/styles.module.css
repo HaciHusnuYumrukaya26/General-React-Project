@@ -1,0 +1,62 @@
+.Colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .palette {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .palette button {
+    margin-top: 10px;
+  }
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.filterBody{
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.appTitle{
+  color: aqua;
+  padding: 1rem;
+ text-align: center;
+}
+.progressMainWrapper{
+  background-color: #393E46;
+  height: 25px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.progressMainStyle{
+  height: px;
+  background-color: #00ADB5;
+ 
+}
+.scrollTitle{
+  color: #393E46;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+.scrollPar{
+  width: 70%;
+  margin: 0 auto;
+  color: #393E46;
+  font-weight: bold;
+  text-align: left;
+}

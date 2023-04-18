@@ -1,0 +1,19 @@
+.card-container{
+    text-align: center;
+    background-color: wheat;
+    border-radius: 15px;
+    width: 32.1%;
+    margin: 5px;
+}
+.card-container:hover{
+    background-color: bisque;
+}
+.image{
+margin: 20px;
+}
+.image:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 836px) {
+    .card-container{width: 45%;}
+}

@@ -1,0 +1,67 @@
+.popularList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.popularListBox{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+}
+.Image{
+    margin-bottom: 30px;
+}
+.Image:hover{
+    transform: scale(1.1);
+}
+.containerbg{
+    background-color: #303841;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.popularListBox2{
+    width: 26%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    color: white;
+    height: 350px;
+    border-radius: 30px;
+}
+.popularListBox2:hover{
+background-color: #343f4b;
+transition-duration: 0.5s;
+}
+
+.buttons{
+    width: 16%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    height: 50px;
+    line-height: 50px;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+}
+.buttons:hover{
+    background-color: #FFB91F;
+    border: 1px solid #FFB91F;
+}
+@media screen and (max-width: 768px) {
+    .popularListBox2{width: 90%;}
+    .buttons{width: 40%;}
+}

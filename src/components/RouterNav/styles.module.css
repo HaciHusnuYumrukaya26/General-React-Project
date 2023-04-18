@@ -1,0 +1,30 @@
+
+.navdiv {
+    background-color: bisque;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ li{
+  margin: 5px;
+ } 
+ li a:hover{
+    background-color:darkgray;
+    border-radius: 50%;
+    color: bisque;
+ }
+  
+  li a {
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: black;
+  }

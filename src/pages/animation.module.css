@@ -1,0 +1,41 @@
+.animation {
+  background-color: gray;
+
+}
+.box {
+
+  width: 150px;
+  height: 150px;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 10px solid crimson;
+  animation: border-animation 3s infinite;
+}
+
+@keyframes border-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.navmenu{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.01);
+    flex-direction: row;
+    justify-content:space-around;
+    line-height: 40px;
+    align-items: center;
+}
+.searchbox{
+    display: flex;
+}
+.btnara{
+        background-color: white;
+}
+
+@media screen and (max-width: 1020px) {
+    .navmenu{flex-direction: column;}
+    .searchbox{display: none;}
+}
